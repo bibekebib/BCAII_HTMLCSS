@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    color: orange;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+table{
+    width: 600px;
+    border: 1px solid green;
+    margin: auto;
+    color: black;
+
+}
+
+table tr th, table tr td{
+    border-bottom: 1px solid green;
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+
+}
+
+table tr:nth-child(even){
+    background-color: green;
+    color: antiquewhite;
+}
+table tr:nth-child(odd){
+    background-color: aqua;
+}
+
+table tr{
+    border: 10px solid green;
+    cursor: pointer;
+}
+
+table tr:nth-child(odd):hover{
+    background-color: peru;
+    
+}
+.bibek{
+    background-color: red;
+}
+table tr .author{
+    color: blue;
+}

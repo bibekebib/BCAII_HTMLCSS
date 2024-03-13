@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: black;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: lightblue;
+    margin: 20px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px; */
+    border: 1px dashed red;
+    padding: 10px;
+    min-height: 50px;
+    max-height: 200px;
+    min-width: 50px;
+    max-width: 200px;
+    animation: bibek 3s infinite linear;
+    overflow: scroll;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: green; }
+    75% { background-color: blue; }
+    100% { background-color: red; }
+    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(0, 255, 123);
+}
+
+@keyframes bibek {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    p{
+        background-color: lightgreen;
+    }
+    .circle{
+        animation: none;
+    }
+    
+}

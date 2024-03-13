@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    border: 1px solid green;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+ .container h1{
+    text-align: center;
+    color: burlywood;
+    margin-bottom: 10px;
+    font-family: cursive;
+} 
+
+.container .username, .container .password, .container .Cpassword{
+    border: 1px solid green;
+    padding: 20px; 
+}
+.container .username input, .container .password input, .container .Cpassword input{
+    width: 300px;
+    float: right;
+    padding: 5px;
+}
+.container .username label, .container .password label, .container .Cpassword label{
+color: burlywood;
+}
+.container .username input::placeholder, .container .password input::placeholder, .container .Cpassword input::placeholder{
+    color: green;
+}
+.container .radio{
+    padding: 10px;
+}
+
+.container .submit input{
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: bisque;
+    color: blue;
+    cursor: pointer;
+    border: none;
+}

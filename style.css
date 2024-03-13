@@ -1,0 +1,34 @@
+/* h1, h2{
+    color: red;
+    background-color: blue;
+}  */
+
+/* p {
+    color: green;
+    background-color: yellow;
+} */
+#first{
+    color: green;
+    background-color: blue;
+}
+
+.heading1{
+    color: red;
+    background-color: blue;
+}
+.heading1{
+    color: rgb(226, 164, 41);
+    background-color: blue;
+}
+.heading2{
+    color: blue;
+    background-color: red;
+}
+
+.paragraph{
+    color: green;
+    background-color: yellow;
+}
+
+
+

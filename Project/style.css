@@ -79,6 +79,12 @@
 .container .hero .right img{
     width: 100%;
     height: 100%;
+    transition: 0.5s;
+}
+
+.container .hero .right img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .container .hero .left h1{

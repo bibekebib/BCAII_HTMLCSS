@@ -35,20 +35,20 @@ var z;
 console.log(typeof z);
 
 // Array
-var cars = ["BMW", "Volvo", "Saab", 'Ford'];
-cars.splice(1, 0, "Audi", "Mustang", "Toyota", "Honda");
-console.log(cars);
 
-console.log(cars);
+// cars.splice(1, 0, "Audi", "Mustang", "Toyota", "Honda");
+// console.log(cars);
 
-// indexing in js
-console.log(cars[2]);
+// console.log(cars);
 
-cars.push("Audi");
-console.log(cars);
+// // indexing in js
+// console.log(cars[2]);
 
-cars.pop();
-console.log(cars);
+// cars.push("Audi");
+// console.log(cars);
+
+// cars.pop();
+// console.log(cars);
 
 // console.log(cars.length);
 // console.log('this is it')
@@ -58,5 +58,61 @@ console.log(cars);
 
 // cars.splice(2, 1);
 // console.log(cars);
+var cars = ["BMW", "Volvo", "Saab", 'Ford'];
+// For Loop in JS
+console.log('For Loop Output')
+for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i]);
+}
 
-cars.sp
+// while loop in js
+
+let j = 0;
+console.log('While loop output')
+while(j<cars.length){
+   
+    console.log(cars[j])
+    j++
+}
+
+// Do while loop in js
+
+let k = 0;
+console.log('Do while loop output')
+do{
+    console.log(cars[k])
+    k++
+}
+while(k<cars.length)
+
+// IF else in js
+
+let age = 18; 
+let hasVoterID = True
+if (age > 18  ) {
+    if (hasVoterID == True){
+        console.log('You can vote');
+    }
+    else{
+        console.log('You cannot vote');
+    }
+    // console.log('You can vote');
+}
+
+else if (age < 18) {
+    console.log('You cannot vote');
+}
+if (age > 18) {
+    console.log('You are an adult');
+} else if (age < 18) {
+    console.log('You are not an adult');
+}
+else{
+    console.log('You are 18');
+}
+
+// Wap a if else condition to check if someone can vote or not,
+// use multiple conditions, like age > 18, age < 18, age = 18, age <0, age > 100 , hasVoterID = True, hasVoterID = False
+
+
+// age > 20 ? console.log('You are an adult') : console.log('You are not an adult');

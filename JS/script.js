@@ -165,6 +165,49 @@ function evenOdd(num) {
 evenOdd(6);
 
 // Wap a function to find the factorial of a number
+
+function factorial(num) {
+    var fact = 1;
+    for (let i = 1; i <= num; i++) {
+        fact = fact * i;
+    }
+    console.log(fact);
+}
+factorial(5);
+
 // Wap a function to find the sum of a number
+
+function sum(num) {
+    var sum = 0;
+    for (let i = 1; i <= num; i++) {
+        sum = sum + i;
+    }
+    console.log(sum);
+}
+sum(5);
+
 // wap a function to find the greatest number of an array
+
+function greatest(arr) {
+    var max = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    console.log(max);
+}
+greatest([1, 2, 3, 4, 5,15, 6, 7, 8, 9, 10]);
+
 // wap a function to find the smallest number of an array
+
+function smallest(arr) {
+    var min = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    console.log(min);
+}
+smallest([1, 2, 3, 4, 5,0, 6, 7, 8, 9, 10]);

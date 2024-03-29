@@ -211,3 +211,21 @@ function smallest(arr) {
     console.log(min);
 }
 smallest([1, 2, 3, 4, 5,0, 6, 7, 8, 9, 10]);
+
+// Objects in Js
+
+var person = {
+    name: 'John',
+    age: 25,
+    city: 'New York',
+    isAdult: true,
+    hobbies: ['Reading', 'Writing', 'Coding'],
+    add : function(a, b){
+        console.log(a+b);
+    },
+    greet : function (){
+        console.log('Hello', person.name);
+    }
+}
+person.greet();
+person.add(4,6);

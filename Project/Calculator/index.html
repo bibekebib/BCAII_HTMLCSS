@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <h1 style="text-align: center;">Simple Calculator</h1>
+  <div id="calculator">
+    <input type="text" id="result" readonly>
+    <div id="buttons">
+      <button onclick="appendNumner(7)">7</button>
+      <button onclick="appendNumner(8)">8</button>
+      <button onclick="appendNumner(9)">9</button>
+      <button onclick="appendSymbol('+')">+</button>
+      <button onclick="appendNumner(4)">4</button>
+      <button onclick="appendNumner(5)">5</button>
+      <button onclick="appendNumner(6)">6</button>
+      <button onclick="appendSymbol('-')">-</button>
+      <button onclick="appendNumner(1)">1</button>
+      <button onclick="appendNumner(2)">2</button>
+      <button onclick="appendNumner(3)">3</button>
+      <button onclick="appendSymbol('*')">*</button>
+      <button onclick="appendNumner(0)">0</button>
+      <button onclick="appendSymbol('.')">.</button>
+      <button onclick="calculateResult()">=</button>
+      <button onclick="appendSymbol('/')">/</button>
+      <button onclick="clearResult()">Clear</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

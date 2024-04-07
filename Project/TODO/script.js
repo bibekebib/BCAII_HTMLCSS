@@ -2,7 +2,7 @@ const taskInput = document.getElementById("task-input");
 const addButton = document.getElementById("add-button");
 const taskList = document.getElementById("task-list");
 function addTask() {
-    const taskText = taskInput.value.trim();
+  const taskText = taskInput.value.trim();
   if (taskText !== "") {
     const newTask = document.createElement("li");
     newTask.innerHTML = taskText;
@@ -13,47 +13,21 @@ function addTask() {
     removeButton.innerHTML = "Remove";
     newTask.appendChild(removeButton);
 
-    removeButton.addEventListener("click", function() {
+    removeButton.addEventListener("click", function () {
       newTask.remove();
     });
   }
-}  
+}
 addButton.addEventListener("click", addTask);
 
-taskInput.addEventListener("keyup", function(event) {
+taskInput.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
     addTask();
   }
 });
-
-
-
-
-
-
-
-
 
 // function updateStorage (){
 
 // var list = document.getElementById('task-list').innerHTML
 // localStorage.setItem('todolist', list)
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

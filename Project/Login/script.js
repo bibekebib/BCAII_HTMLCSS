@@ -10,12 +10,10 @@ const users = [
     event.preventDefault();
     const username = form.username.value;
     const password = form.password.value;
-  
     const user = users.find(user => user.username === username && user.password === password);
   
     if (user) {
       alert("Login successful!");
-      // You can redirect to another page here
     } else {
       errorMsg.textContent = "Invalid username or password";
     }

@@ -26,7 +26,7 @@ clear
 ```
 * cat  -> Read the text file
 ```bash
-clear
+cat filename.txt
 ```
 * touch  -> create new file
 ```bash 
@@ -52,4 +52,16 @@ rmdir NewFolder
 if the folder is not empty
 ```bash 
 rm -rf NewFolder
+```
+
+* nano -> Editor in commnad line
+```bash 
+nano 
+nano filename.extension
+
+# To exit from name
+#save
+ctrl + o
+#exit
+ctrl + x
 ```

@@ -2,7 +2,6 @@ const users = [
     { username: "user1", password: "password1" },
     { username: "user2", password: "password2" }
   ];
-  
   const form = document.getElementById("login-form");
   const errorMsg = document.getElementById("error-msg");
   
